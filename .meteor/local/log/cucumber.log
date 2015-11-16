@@ -1,0 +1,462 @@
+=> Using velocity:METEOR@1.2.1_1 as requested (overriding Meteor 1.2.1)
+
+[[[[[ /private/tmp/astronomy-EJSON-bug ]]]]]
+
+=> Started proxy.
+** You've set up some data subscriptions with Meteor.publish(), but
+** you still have autopublish turned on. Because autopublish is still
+** on, your Meteor.publish() calls won't have much effect. All data
+** will still be sent to all clients.
+**
+** Turn off autopublish by removing the autopublish package:
+**
+**   $ meteor remove autopublish
+**
+** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+** for each collection that you want clients to see.
+
+[velocity] adding velocity core
+[xolvio:cucumber] Mirror server is initializing
+[velocity] Velocity not started. Queueing func
+=> Started your app.
+
+=> App running at: http://localhost:57382/
+[velocity] Mirror started. Connecting via DDP to parent
+[velocity] Mirror connected to parent. Registering mirror...
+[velocity] Mirror has established connection with Velocity.
+[velocity] Triggering queued startup functions
+[xolvio:cucumber] Starting Chimp
+[xolvio:cucumber] Starting Chimp with /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/bin/chimp [ '/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/bin/chimp',
+  '--server',
+  '--serverPort=8866',
+  '-r',
+  '/private/tmp/astronomy-EJSON-bug/tests/cucumber/features',
+  '--snippets',
+  '--ddp=http://localhost:57382/',
+  '--log=error',
+  '--debug',
+  '--tags=@dev,@watch,@focus' ] /private/tmp/astronomy-EJSON-bug/tests/cucumber { FRAMEWORK: 'cucumber',
+  HANDSHAKE: 'true',
+  HOST: 'http://localhost:57382/',
+  HTTP_FORWARDED_COUNT: '2',
+  IS_MIRROR: 'true',
+  METEOR_PRINT_ON_LISTEN: 'true',
+  MIRROR_PORT: '57382',
+  MOBILE_DDP_URL: 'http://localhost:57382',
+  NODE_ENV: 'development',
+  PARENT_URL: 'http://localhost:3000/',
+  PORT: '22343',
+  PWD: '/tmp/astronomy-EJSON-bug',
+  ROOT_URL: 'http://localhost:57382/',
+  TMPDIR: '/var/folders/_c/3vfqt5bs7011h39v_d23g_8c0000gn/T/',
+  VELOCITY_DEBUG: '1',
+  VELOCITY_MAIN_APP_PATH: '/private/tmp/astronomy-EJSON-bug',
+  PATH: '/Users/zvictor/.meteor/packages/velocity_meteor-tool/.1.1.10_1.11t26j2++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin:/Users/zvictor/.meteor/packages/meteor-tool/.1.1.10.1b51q9m++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' }
+[xolvio:cucumber] Chimp process forked with pid 3503
+[chimp] Did not find package.json, not running npm install
+[chimp] Chimp server is running on port 8866 http://localhost:57382/
+[chimp] Handshaking with DDP server
+[xolvio:cucumber] Received handshake from Chimp.
+[xolvio:cucumber] Connecting to hub
+[chimp] Handshake complete, closing DDP connection
+[xolvio:cucumber] Connected to hub.
+[xolvio:cucumber] Find and run triggered { '0': 
+   { name: 'steps.js',
+     absolutePath: '/private/tmp/astronomy-EJSON-bug/tests/cucumber/features/steps.js',
+     relativePath: 'tests/cucumber/features/steps.js',
+     targetFramework: 'cucumber',
+     lastModified: 1447678974279,
+     _id: '/private/tmp/astronomy-EJSON-bug/tests/cucumber/features/steps.js' } }
+[xolvio:cucumber] Running in batch-features mode.
+[xolvio:cucumber] Cucumber is running
+[chimp] interrupting
+[chimp] no processes to interrupt
+[chimp] rerunning
+[chimp] Running...
+[chimp] interrupting
+[chimp] no processes to interrupt
+[chimp][selenium] Selenium object created
+[chimp][selenium] Start
+[chimp][selenium] Installing Selenium + drivers if needed
+
+[chimp][selenium] hub can be seen at http://localhost:57559/wd/hub
+[chimp][session-manager] options are { host: 'localhost',
+  port: '57559',
+  browser: 'chrome',
+  deviceName: undefined }
+[chimp][session-manager] created a new SessionManager { host: 'localhost',
+  port: '57559',
+  browser: 'chrome',
+  deviceName: undefined }
+[chimp][cucumber] Running with [ 'node',
+  '/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/lib/node_modules/.bin/cucumber.js',
+  '-r',
+  'features',
+  '-r',
+  '/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/lib/chimp-helper.js',
+  '-r',
+  '/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/lib/cucumberjs/world.js',
+  '-r',
+  '/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/lib/cucumberjs/hooks.js',
+  '-r',
+  '/private/tmp/astronomy-EJSON-bug/tests/cucumber/features',
+  '--snippets',
+  'true',
+  '--tags',
+  '@dev,@watch,@focus',
+  '--format',
+  'pretty' ]
+[chimp][ddp] creating DDP wrapper
+
+[chimp][ddp] Connecting to DDP server { host: 'localhost',
+  port: '57382',
+  ssl: false,
+  autoReconnect: true,
+  autoReconnectTimer: 500,
+  maintainCollections: true,
+  ddpVersion: '1',
+  useSockJs: true }
+
+[chimp][helper] Using the jasmine-expect assertion library
+
+[chimp][world] No user-defined world exists, setting up the default Chimp world
+
+[chimp][hooks] Starting BeforeFeatures
+
+[chimp][hooks] getting browser
+
+[chimp][session-manager] options are { host: 'localhost',
+  port: '57559',
+  browser: 'chrome',
+  deviceName: undefined }
+
+[chimp][session-manager] created a new SessionManager { host: 'localhost',
+  port: '57559',
+  browser: 'chrome',
+  deviceName: undefined }
+
+[chimp][hooks] custom chimp.js not found, loading defaults
+
+[chimp][hooks] webdriverOptions are  {"waitforTimeout":10000,"desiredCapabilities":{"browserName":"chrome","platform":"ANY","name":"","chromeOptions":{}},"host":"localhost","port":"57559","logLevel":"silent","sync":true}
+
+[chimp][session-manager] creating webdriver remote 
+
+[chimp][session-manager] checking connection to selenium server
+
+[chimp][session-manager] Connection to the to selenium server verified
+
+[chimp][session-manager] requesting sessions from http://localhost:57559/wd/hub/sessions
+
+[chimp][session-manager] received data {"state":"success","sessionId":null,"hCode":698054006,"value":[],"class":"org.openqa.selenium.remote.Response","status":0}
+
+[chimp][session-manager] Did not find any open selenium sessions, not reusing a session
+
+[chimp][session-manager] monkey patching the browser object
+
+[chimp][hooks] init browser
+
+[chimp][session-manager] initializing browser
+
+[chimp][hooks] init browser callback
+
+[chimp][hooks] set timeoutsAsyncScript
+
+[chimp][hooks] setup DDP
+
+[chimp][hooks] connecting via DDP to http://localhost:57382/
+
+[chimp][hooks] connecting via DDP had no error
+
+[chimp][hooks] Finished BeforeFeatures
+[chimp][hooks] User-defined BeforeFeatures not found, finishing up
+
+
+Feature: Get Posts
+
+
+
+
+  [36m@focus[0m
+  Scenario: Get data from server                [2m[37m# features/sample.feature:4[0m
+
+Calling the server to ask our post.
+
+Posts found in the server side:
+[ { _modifiers: {},
+    _original: 
+     { _id: 'txPs5TymhbKS5sQZG',
+       title: 'hello world',
+       content: 'lorem ipsum' },
+    _id: 'txPs5TymhbKS5sQZG',
+    title: 'hello world',
+    content: 'lorem ipsum',
+    _isNew: false } ]
+    [31mWhen I request a post titled "hello world"[0m  [2m[37m# features/sample.feature:5[0m
+
+      Error: Custom EJSON type Astronomy is not defined
+        at Object.builtinConverters.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:248:15)
+        at fromJSONValueHelper (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:363:28)
+        at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:336:21
+        at Array.forEach (native)
+        at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:104:9)
+        at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+        at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:343:7
+        at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:112:20)
+        at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+        at Object.EJSON.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:375:5)
+        at Object.EJSON.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:394:16)
+        at [object Object].DDPClient._message (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:131:16)
+        at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:97:10)
+        at [object Object].emit (events.js:95:17)
+        at [object Object].EventTarget.dispatchEvent (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:24:10)
+        at [object Object].instance._receiveMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:134:10)
+        at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:34:49)
+        at [object Object].emit (events.js:117:20)
+        at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:450:14)
+        at pipe (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:37:40)
+        at [object Object].Pipeline._loop (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:44:3)
+        at [object Object].Pipeline.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:13:8)
+        at [object Object].instance.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js:133:20)
+        at [object Object].instance._emitMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:441:22)
+        at [object Object].instance._emitFrame (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:404:19)
+        at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:141:18)
+        at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js:62:58)
+        at [object Object].IO.write (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js:80:16)
+        at write (_stream_readable.js:602:24)
+        at flow (_stream_readable.js:611:7)
+        at Socket.pipeOnReadable (_stream_readable.js:643:5)
+        at Socket.emit (events.js:92:17)
+        at emitReadable_ (_stream_readable.js:427:10)
+        at emitReadable (_stream_readable.js:423:5)
+        at readableAddChunk (_stream_readable.js:166:9)
+        at Socket.Readable.push (_stream_readable.js:128:10)
+        at TCP.onread (net.js:529:21)
+
+
+    [36mThen I should see the content "lorem ipsum"[0m [2m[37m# features/sample.feature:6[0m
+
+
+
+[chimp][cucumber] Received message from cucumber child. Result: [
+  {
+    "id": "Get-Posts",
+    "name": "Get Posts",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/private/tmp/astronomy-EJSON-bug/tests/cucumber/features/sample.feature",
+    "elements": [
+      {
+        "name": "Get data from server",
+        "id": "Get-Posts;get-data-from-server",
+        "line": 4,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "name": "I request a post titled \"hello world\"",
+            "line": 5,
+            "keyword": "When ",
+            "result": {
+              "error_message": "Error: Custom EJSON type Astronomy is not defined\n  at Object.builtinConverters.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:248:15)\n  at fromJSONValueHelper (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:363:28)\n  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:336:21\n  at Array.forEach (native)\n  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:104:9)\n  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)\n  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:343:7\n  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:112:20)\n  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)\n  at Object.EJSON.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:375:5)\n  at Object.EJSON.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:394:16)\n  at [object Object].DDPClient._message (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:131:16)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:97:10)\n  at [object Object].emit (events.js:95:17)\n  at [object Object].EventTarget.dispatchEvent (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:24:10)\n  at [object Object].instance._receiveMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:134:10)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:34:49)\n  at [object Object].emit (events.js:117:20)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:450:14)\n  at pipe (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:37:40)\n  at [object Object].Pipeline._loop (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:44:3)\n  at [object Object].Pipeline.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:13:8)\n  at [object Object].instance.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js:133:20)\n  at [object Object].instance._emitMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:441:22)\n  at [object Object].instance._emitFrame (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:404:19)\n  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:141:18)\n  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js:62:58)\n  at [object Object].IO.write (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js:80:16)\n  at write (_stream_readable.js:602:24)\n  at flow (_stream_readable.js:611:7)\n  at Socket.pipeOnReadable (_stream_readable.js:643:5)\n  at Socket.emit (events.js:92:17)\n  at emitReadable_ (_stream_readable.js:427:10)\n  at emitReadable (_stream_readable.js:423:5)\n  at readableAddChunk (_stream_readable.js:166:9)\n  at Socket.Readable.push (_stream_readable.js:128:10)\n  at TCP.onread (net.js:529:21)\n",
+              "duration": 16205878,
+              "status": "failed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see the content \"lorem ipsum\"",
+            "line": 6,
+            "keyword": "Then ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 149951,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
+
+(::) failed steps (::)
+
+Error: Custom EJSON type Astronomy is not defined
+  at Object.builtinConverters.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:248:15)
+  at fromJSONValueHelper (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:363:28)
+  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:336:21
+  at Array.forEach (native)
+  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:104:9)
+  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:343:7
+  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:112:20)
+  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+  at Object.EJSON.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:375:5)
+  at Object.EJSON.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:394:16)
+  at [object Object].DDPClient._message (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:131:16)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:97:10)
+  at [object Object].emit (events.js:95:17)
+  at [object Object].EventTarget.dispatchEvent (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:24:10)
+  at [object Object].instance._receiveMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:134:10)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:34:49)
+  at [object Object].emit (events.js:117:20)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:450:14)
+  at pipe (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:37:40)
+  at [object Object].Pipeline._loop (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:44:3)
+  at [object Object].Pipeline.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:13:8)
+  at [object Object].instance.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js:133:20)
+  at [object Object].instance._emitMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:441:22)
+  at [object Object].instance._emitFrame (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:404:19)
+  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:141:18)
+  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js:62:58)
+  at [object Object].IO.write (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js:80:16)
+  at write (_stream_readable.js:602:24)
+  at flow (_stream_readable.js:611:7)
+  at Socket.pipeOnReadable (_stream_readable.js:643:5)
+  at Socket.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at emitReadable (_stream_readable.js:423:5)
+  at readableAddChunk (_stream_readable.js:166:9)
+  at Socket.Readable.push (_stream_readable.js:128:10)
+  at TCP.onread (net.js:529:21)
+
+
+Failing scenarios:
+features/sample.feature:4 # Scenario: Get data from server
+
+1 scenario ([31m1 failed[0m)
+2 steps ([31m1 failed[0m, [36m1 skipped[0m)
+[chimp][hooks] Starting AfterFeatures
+
+[chimp][hooks] Ending browser session
+
+[chimp][session-manager] watch / server mode are true, not killing session
+[chimp][hooks] Ended browser sessions
+[chimp][hooks] Finished AfterFeatures
+
+[chimp][cucumber] Closed with code 2
+[chimp][cucumber] Cucumber not in a stopping state
+[chimp] Finished running async processes with errors
+[chimp] run complete with errors Cucumber steps failed
+[chimp] Responding to /run request with:
+[
+  {
+    "id": "Get-Posts",
+    "name": "Get Posts",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/private/tmp/astronomy-EJSON-bug/tests/cucumber/features/sample.feature",
+    "elements": [
+      {
+        "name": "Get data from server",
+        "id": "Get-Posts;get-data-from-server",
+        "line": 4,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "name": "I request a post titled \"hello world\"",
+            "line": 5,
+            "keyword": "When ",
+            "result": {
+              "error_message": "Error: Custom EJSON type Astronomy is not defined\n  at Object.builtinConverters.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:248:15)\n  at fromJSONValueHelper (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:363:28)\n  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:336:21\n  at Array.forEach (native)\n  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:104:9)\n  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)\n  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:343:7\n  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:112:20)\n  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)\n  at Object.EJSON.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:375:5)\n  at Object.EJSON.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:394:16)\n  at [object Object].DDPClient._message (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:131:16)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:97:10)\n  at [object Object].emit (events.js:95:17)\n  at [object Object].EventTarget.dispatchEvent (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:24:10)\n  at [object Object].instance._receiveMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:134:10)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:34:49)\n  at [object Object].emit (events.js:117:20)\n  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:450:14)\n  at pipe (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:37:40)\n  at [object Object].Pipeline._loop (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:44:3)\n  at [object Object].Pipeline.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:13:8)\n  at [object Object].instance.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js:133:20)\n  at [object Object].instance._emitMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:441:22)\n  at [object Object].instance._emitFrame (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:404:19)\n  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:141:18)\n  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js:62:58)\n  at [object Object].IO.write (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js:80:16)\n  at write (_stream_readable.js:602:24)\n  at flow (_stream_readable.js:611:7)\n  at Socket.pipeOnReadable (_stream_readable.js:643:5)\n  at Socket.emit (events.js:92:17)\n  at emitReadable_ (_stream_readable.js:427:10)\n  at emitReadable (_stream_readable.js:423:5)\n  at readableAddChunk (_stream_readable.js:166:9)\n  at Socket.Readable.push (_stream_readable.js:128:10)\n  at TCP.onread (net.js:529:21)\n",
+              "duration": 16205878,
+              "status": "failed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I should see the content \"lorem ipsum\"",
+            "line": 6,
+            "keyword": "Then ",
+            "result": {
+              "status": "skipped"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+Error: Custom EJSON type Astronomy is not defined
+  at Object.builtinConverters.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:248:15)
+  at fromJSONValueHelper (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:363:28)
+  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:336:21
+  at Array.forEach (native)
+  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:104:9)
+  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+  at /Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:343:7
+  at Function._.each._.forEach (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-underscore-patched/underscore.js:112:20)
+  at EJSON._adjustTypesFromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:334:5)
+  at Object.EJSON.fromJSONValue (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:375:5)
+  at Object.EJSON.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/ddp-ejson/ejson.js:394:16)
+  at [object Object].DDPClient._message (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:131:16)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/lib/ddp-client.js:97:10)
+  at [object Object].emit (events.js:95:17)
+  at [object Object].EventTarget.dispatchEvent (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:24:10)
+  at [object Object].instance._receiveMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:134:10)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/lib/faye/websocket/api.js:34:49)
+  at [object Object].emit (events.js:117:20)
+  at [object Object].<anonymous> (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:450:14)
+  at pipe (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:37:40)
+  at [object Object].Pipeline._loop (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:44:3)
+  at [object Object].Pipeline.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js:13:8)
+  at [object Object].instance.processIncomingMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js:133:20)
+  at [object Object].instance._emitMessage (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:441:22)
+  at [object Object].instance._emitFrame (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:404:19)
+  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js:141:18)
+  at [object Object].instance.parse (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js:62:58)
+  at [object Object].IO.write (/Users/zvictor/.meteor/packages/xolvio_cucumber/.0.20.0_1.83lzvk++os.osx.x86_64+web.browser+web.cordova/npm/node_modules/chimp/node_modules/xolvio-ddp/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js:80:16)
+  at write (_stream_readable.js:602:24)
+  at flow (_stream_readable.js:611:7)
+  at Socket.pipeOnReadable (_stream_readable.js:643:5)
+  at Socket.emit (events.js:92:17)
+  at emitReadable_ (_stream_readable.js:427:10)
+  at emitReadable (_stream_readable.js:423:5)
+  at readableAddChunk (_stream_readable.js:166:9)
+  at Socket.Readable.push (_stream_readable.js:128:10)
+  at TCP.onread (net.js:529:21)
+
+            "result": {
+              "duration": 149951,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
+[chimp] finished rerun
+[xolvio:cucumber] Results from Chimp:
+[ { id: 'Get-Posts',
+    name: 'Get Posts',
+    description: '',
+    line: 1,
+    keyword: 'Feature',
+    uri: '/private/tmp/astronomy-EJSON-bug/tests/cucumber/features/sample.feature',
+    elements: [ [Object] ] } ]
