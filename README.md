@@ -7,6 +7,12 @@ When trying to use Velocity & Astronomy together, it raises `Error: Custom EJSON
 A minimal reproducible scenario can be found at https://github.com/zvictor/astronomy-EJSON-bug.
 Velocity uses Meteor's `methods` and `calls` to transfer data.
 
+Logs:
+ [.meteor/local/log/cucumber.log](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/local/log/cucumber.log)
+ [.meteor/versions](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/versions)
+ [.meteor/packages](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/packages)
+
+
 # Debugging
 * In normal server/client & methods/calls operations everything works fine.
 
@@ -20,6 +26,7 @@ Velocity uses Meteor's `methods` and `calls` to transfer data.
 ----
 
 
-**Note**: It seems to be more a problem in Velocity than in Astronomy, but I couldn't find the Velocity's issue page to post it there. =/
 
-**Related**: [jagi/meteor-astronomy#187](https://github.com/jagi/meteor-astronomy/issues/187)
+**Related**: 
+[xolvio/chimp#152](https://github.com/xolvio/chimp/issues/152)
+[jagi/meteor-astronomy#187](https://github.com/jagi/meteor-astronomy/issues/187)
