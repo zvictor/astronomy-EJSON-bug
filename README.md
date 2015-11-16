@@ -8,8 +8,11 @@ A minimal reproducible scenario can be found at https://github.com/zvictor/astro
 Velocity uses Meteor's `methods` and `calls` to transfer data.
 
 Logs:
+
  [.meteor/local/log/cucumber.log](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/local/log/cucumber.log)
+ 
  [.meteor/versions](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/versions)
+ 
  [.meteor/packages](https://github.com/zvictor/astronomy-EJSON-bug/blob/master/.meteor/packages)
 
 
@@ -27,6 +30,8 @@ Logs:
 
 
 
-**Related**: 
+**Posted at**: 
+
 [xolvio/chimp#152](https://github.com/xolvio/chimp/issues/152)
+
 [jagi/meteor-astronomy#187](https://github.com/jagi/meteor-astronomy/issues/187)
